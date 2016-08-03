@@ -1,0 +1,125 @@
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+% \renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+% \nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+% \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+% \usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+% \setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+% \setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Daljeet}{Singh}
+\title{Java/Nodejs Programmer}                               % optional, remove / comment the line if not wanted
+% \address{Indirapuram}{Ghaziabaad}{UP}
+\phone[mobile]{+91~(991)~0069~813}                  
+% \phone[fixed]{+2~(345)~678~901}
+% \phone[fax]{+3~(456)~789~012}
+\email{daljeets@hcl.com}
+\email{daljeet.singh123@gmail.com} % optional, remove / comment the line if not wanted
+\homepage{www.daljeetsingh.blogger.com}                         % optional, remove / comment the line if not wanted
+\social[linkedin]{daljeet.singh123}                        % optional, remove / comment the line if not wanted
+\social[twitter]{daljeet.singh}                             % optional, remove / comment the line if not wanted
+\social[github]{daljeet-hcl}                              % optional, remove / comment the line if not wanted
+\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% \quote{10 years experience in Software Design and Development}                % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+
+\usepackage{multibib}
+\newcites{book,misc}{{Books},{Others}}
+% ----------------------------------------------------------------------------------
+% content
+% ----------------------------------------------------------------------------------
+\begin{document}
+% \begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%   -----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Skills/Executive Summary}
+10 plus years of Experience Design and Development of Software using following technologies :
+\begin{itemize}%
+\item Java, Spring, Hibernate
+\item Android, J2ME
+\item Nodejs, JavaScript, MongoDB
+\item Deployments on Red Hat Enterprize Linux  
+\end{itemize}
+
+
+
+\section{Work Experience}
+\cventry{year--year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.\newline{}%
+  Detailed achievements:%
+  \begin{itemize}%
+  \item Achievement 1;
+  \item Achievement 2, with sub-achievements:
+    \begin{itemize}%
+    \item Sub-achievement (a);
+    \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
+      \begin{itemize}
+      \item Sub-sub-achievement i;
+      \item Sub-sub-achievement ii;
+      \item Sub-sub-achievement iii;
+      \end{itemize}
+    \item Sub-achievement (c);
+    \end{itemize}
+  \item Achievement 3.
+  \end{itemize}}
+\cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}
+
+\cventry{Current--JUL2014} {Technical Lead}{HCL Technologies} \newline   {
+  \begin{Itemize}                           
+  \item Pride Global                                                     
+    \begin{itemize}
+    \item Code Review of 9 people team
+    \item Nodejs REST API development
+    \item MongoDB , ExpressJS Framework  
+    \end{itemize}                                                       
+  \item HCL Practice                                                     
+    \begin{itemize}
+    \item Research Filed 2 US patents
+    \end {itemize}
+  } {}{}
+
+  \cventry {MAY2013--JUL2014}  {Member Of Technical Staff},{Bqurious Software LLC}                            
+  {Product Development}                                                
+  {Startup focusing on test automation for Android platform}          
+  {innovated solutions for converting manual test to automated tests} 
+
+  \cventry{DEC2011-MAY2013}  {*System Analyst, Skillnet Inc*}                                     
+  Oracle Store Inventory Management                                 
+  customization and Integration for Vodafone Romania,                
+  onsite deployment for UAT.                                         
+
+  \cventry{JAN2011-NOV2011}  {Sr Software Engineer,}{ Infogain India Private Limited*}             
+  {Oracle SIM customization and implementation}                        
+  {Fedex POS kiosk, /Swing/ based application Deve}                    
+
+  \cventry{Aug2010-Dec2010}  {Software Engineer}, {BEBO Technologies }                            
+  {Worked On /GWT, Spring, Hibernate/ based Enterprise application}    
+
+  \cventry{JUL2006-Aug2010}  {Freelance Developer}, {Odesk }                                      
+  {Developed /Java Swing/ and /J2ME/ games}                            
+
+  \section{Education}
+
+  \cventry{May, 2006}{Bachelors of Technology}
+  {Computer Science and Engineering}
+  {Punjab Technical University}{Jalandhar} 
+  {\texit{65}}{}                                   
+  \cventry{April, 2000}{Higher Secondary Examination}{Central Board Of Secondary Education}{\texit{62}}  {}{}                                  
+  \cventry{April, 1998}{Secondary school Examination}{Central Board of Secondary Education}{\textit{76}}{}{}
+
+\end{document}
+
+
